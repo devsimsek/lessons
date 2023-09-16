@@ -1,0 +1,337 @@
+@media only screen and (max-width: 600px) {
+    body {
+        padding: .5rem !important;
+        margin: .5rem !important;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: #444;
+        color: white;
+    }
+
+    * {
+        color: white;
+    }
+
+    pre,
+    code {
+        color: #444 !important;
+    }
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+pre,
+code {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+pre {
+    padding: .5rem;
+    line-height: 1.25;
+    overflow-x: scroll;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+html {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 32rem) and (max-width: 48rem) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    line-height: 1.85;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 1.414rem 0 .5rem;
+    font-weight: inherit;
+    line-height: 1.42;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.998rem;
+}
+
+h2 {
+    font-size: 2.827rem;
+}
+
+h3 {
+    font-size: 1.999rem;
+}
+
+h4 {
+    font-size: 1.414rem;
+}
+
+h5 {
+    font-size: 1.121rem;
+}
+
+h6 {
+    font-size: .88rem;
+}
+
+small {
+    font-size: .707em;
+}
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea {
+    max-width: 100%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
+
+html {
+    font-size: 18px;
+    max-width: 100%;
+}
+
+body {
+    color: #444;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 48rem;
+    line-height: 1.45;
+    padding: .25rem;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: Arimo, Helvetica, sans-serif;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-bottom: 1.15rem;
+    padding-bottom: .5rem;
+}
+
+.h1 {
+    font-size: 2em;
+}
+
+.h2 {
+    font-size: 1.5em;
+}
+
+.h3 {
+    font-size: 1.17em;
+}
+
+.h4 {
+    font-size: 1em;
+}
+
+.h5 {
+    font-size: .83em;
+}
+
+.h6 {
+    font-size: .67em;
+}
+
+a {
+    text-decoration: none;
+}
+
+blockquote {
+    border-left: 8px solid #fafafa;
+    padding: 1rem;
+}
+
+pre,
+code {
+    background-color: #fafafa;
+}
+
+/* Custom styles */
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: unset;
+    margin-bottom: 1.15rem;
+    padding-bottom: .5rem;
+}
+
+.heading .h1 {
+    border-bottom: unset;
+    margin-bottom: unset;
+    padding-bottom: unset;
+}
+
+header {
+    margin-top: 2rem;
+    border-bottom: 2px solid rgb(229, 220, 220);
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li:not(:first-child) {
+    margin-left: .5rem;
+}
+
+li:hover a, li:hover span {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(229, 220, 200);
+}
+
+a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(229, 220, 200);
+}
+
+footer {
+    margin-top: 1.15rem;
+    padding-top: .5rem;
+    border-top: 2px solid rgb(229, 220, 200);
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li:not(:first-child) {
+    margin-left: .5rem;
+}
+
+.flex-inline {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.post {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.post-info {
+    margin-bottom: 1.15rem;
+    padding-bottom: .5rem;
+}
+
+.post-heading {
+    border-bottom: unset;
+    padding-bottom: unset;
+    margin-bottom: unset;
+    text-align: unset;
+}

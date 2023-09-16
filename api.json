@@ -1,0 +1,34 @@
+{
+    "post": {
+        "Welcome to lessons": {
+            "type": "post",
+            "category": "General",
+            "file": "Welcome to lessons",
+            "title": "Welcome to lessons",
+            "body": "<div class=\"toc\">\n<ul>\n<li><a href=\"#welcome-to-lessons\">Welcome to Lessons</a><ul>\n<li><a href=\"#tldr\">TLDR;</a></li>\n<li><a href=\"#whats-the-buzz-about\">What's the Buzz About?</a><ul>\n<li><a href=\"#learning-made-easy\">Learning Made Easy</a></li>\n<li><a href=\"#sharing-my-journey\">Sharing My Journey</a></li>\n</ul>\n</li>\n<li><a href=\"#lets-get-technical\">Let's Get Technical</a></li>\n<li><a href=\"#whats-next\">What's Next?</a></li>\n</ul>\n</li>\n</ul>\n</div>\n<h1 id=\"welcome-to-lessons\">Welcome to Lessons</h1>\n<h2 id=\"tldr\">TLDR;</h2>\n<p>Hey there, fellow learners and tech enthusiasts! \ud83d\udc4b I'm excited to introduce you to lessons \u2013 a new project that I've been excited about. With this project, I'm on a mission to simplify learning progress, share latest developments about me and the tech world, and I can't wait to share it with you.</p>\n<h2 id=\"whats-the-buzz-about\">What's the Buzz About?</h2>\n<p>Before we dive into the technical details, let me give you a glimpse of what's in store. I'm going to utilize the <a href=\"https://github.com/devsimsek/wordflow\">Wordflow</a> static site generator to create content for you. But it's not just any website; it's going to be a hub of knowledge and learning resources.</p>\n<h3 id=\"learning-made-easy\">Learning Made Easy</h3>\n<p>One of the primary goals of this project is to provide a platform for sharing knowledge.. You'll learn everything from programming languages to best practices for writing code in a series of documents I'll be publishing. You should learn something of value from this article, whether you're a novice or an experienced developer eager to learn a new language or expertise.</p>\n<h3 id=\"sharing-my-journey\">Sharing My Journey</h3>\n<p>However, it's not just about educating; I also want to share with you my personal learning process. Learning is an ongoing process, and I think it may be quite beneficial to share our successes and setbacks. As a result, I'll be chronicling my personal experiences along the way, emphasizing the highs and lows, and talking about the newest trends and technology in the world of coding.</p>\n<h2 id=\"lets-get-technical\">Let's Get Technical</h2>\n<p>Let's now discuss some of the technical aspects of the project. My static site generator is made to be effective and simple to use. A preview of some of its features is shown below:</p>\n<ul>\n<li>\n<p><strong>Markdown Support:</strong> I love Markdown for its simplicity and flexibility, so naturally, the generator fully supports it. You'll be able to write your content in Markdown, just like this post!</p>\n</li>\n<li>\n<p><strong>Docx Support:</strong> With <a href=\"https://github.com/devsimsek/wordflow\">wordflow</a>, you have the flexibility to generate static site content using the popular docx format. This means you can seamlessly integrate your existing documents and take advantage of our generator's features to create stunning web content effortlessly.</p>\n</li>\n<li>\n<p><strong>Customization:</strong> While keeping things simple, I've made sure you can customize your site to reflect your unique style and preferences.</p>\n</li>\n<li>\n<p><strong>Fast and Secure:</strong> The generated sites are static, which means they load quickly and are highly secure. Plus, they can be hosted on various platforms, making deployment a piece of cake.</p>\n</li>\n</ul>\n<h2 id=\"whats-next\">What's Next?</h2>\n<p>I'm presently working to improve the generator and develop the classes. It won't take long for you to be able to obtain it. I am eager to see what you will produce using this tool.</p>\n<p>So, keep checking back for updates, tutorials, and tons more fun content. The journey of learning is amazing, and I'm so glad you're with me on it.</p>\n<p>Until next time, happy coding! \ud83d\ude80</p>",
+            "about": "I publish my word documents using wordflow!",
+            "email": "devsimsek@outlook.com",
+            "name": "Metin Simsek",
+            "nickname": "devsimsek",
+            "linkedin": "https://linkedin.com/in/devsimsek",
+            "github": "https://github.com/devsimsek",
+            "domain": "lessons.smsk.me",
+            "theme": "darklog",
+            "id": "45897",
+            "imagedir": "/public/images/welcome-to-lessons45897",
+            "date": "Sat Sep 16 22:43:13 2023"
+        }
+    },
+    "wf_site_config": {
+        "theme": "darklog",
+        "author": {
+            "about": "I publish my word documents using wordflow!",
+            "email": "devsimsek@outlook.com",
+            "name": "Metin Simsek",
+            "nickname": "devsimsek",
+            "linkedin": "https://linkedin.com/in/devsimsek",
+            "github": "https://github.com/devsimsek"
+        },
+        "generator": "md"
+    }
+}
